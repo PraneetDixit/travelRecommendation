@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, rgb(4 74 110/70%), rgb(4 74 110/30%), rgb(0 0 0 / 15%)), url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/04/29/11/istock-623595614.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-image: linear-gradient(90deg, rgb(2 29 49), rgb(2 29 49 / 0%));
+    align-items: center;
+    color: white;
+}
+
+nav>a {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li a {
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#searchBar {
+    min-height: 60px;
+    min-width: 250px;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#links svg {
+    width: 23px;
+}
+
+#links a {
+    margin-bottom: 15px;
+}
+
+#line {
+    min-height: 150px;
+    border: 1px solid white;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#intro>p {
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: rgb(0 0 0 / 20%);
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
+}
+
+#team {
+    display: flex;
+    margin: 60px;
+}
+
+#team h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin-right: 80px;
+}
+
+.avatar svg {
+    height: 22px;
+    fill: #2d3744;
+}
+
+.member {
+    display: flex;
+    background-color: rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 30px;
+    color:white;
+}
+
+.member h3, .member p{
+    margin-bottom: 10px;
+}
+
+span{
+    padding: 8px 45px;
+    border-radius: 10px;
+    background-color: #3f7aae;
+}
+
+.avatar{
+    margin-right: 10px;
+}
